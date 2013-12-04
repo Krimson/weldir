@@ -1,0 +1,54 @@
+der {
+  background-image: none;
+  background-color: #3b4449;
+}
+
+div#header-region {
+  background: #ededed;
+}
+
+div#page {
+  background: #ededed;
+}
+
+div#header div.logo a {
+  background-image: url("weldir-logo.png");
+}
+
+div#header div.site-name {
+  color: #ef7d25;
+  border-left: #ef7d25;
+}
+
+div#navigation {
+  background-image: none;
+  background-color: #3b4449;
+  border-top: none;
+}
+
+div#navigation a {
+  color: #ededed;
+}
+
+div#navigation ul.links a {
+  color: #3b4449;
+  background: #ededed;
+}
+
+div#console {
+  background-color: #3b4449;
+  background: #3b4449;
+  border-top: none;
+  border-bottom: none;
+}
+
+div#console div.messages {
+  border-color: #ef7d25;
+  text-shadow: none;
+  background: none;
+  color: #ef7d25;
+}
+
+#footer {
+  background-color: #3b4449 !important;
+}

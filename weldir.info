@@ -1,0 +1,6 @@
+me = Weldir
+description = Sub-theme of Eldir by Wunderkraut
+core = 6.x
+base theme = eldir
+
+stylesheets[all][] = weldir.css
