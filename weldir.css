@@ -1,3 +1,7 @@
+body.aegir {
+  background: #ededed;
+}
+
 div#header {
   background-image: none;
   background-color: #3b4449;
@@ -9,6 +13,14 @@ div#header-region {
 
 div#page {
   background: #ededed;
+}
+
+div#page div.limiter {
+  background: #ededed;
+}
+
+div#page div.container-inline {
+  background: #ededed !important;
 }
 
 div#header div.logo a {
@@ -36,8 +48,8 @@ div#navigation ul.links a {
 }
 
 div#console {
-  background-color: #3b4449;
-  background: #3b4449;
+  background-color: #ededed;
+  background: #ededed;
   border-top: none;
   border-bottom: none;
 }
@@ -50,5 +62,9 @@ div#console div.messages {
 }
 
 #footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   background-color: #3b4449 !important;
 }
