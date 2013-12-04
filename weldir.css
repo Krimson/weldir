@@ -17,6 +17,7 @@ div#header-region {
 
 div#page {
   background: #ededed;
+  margin-bottom: 70px;
 }
 
 div#page div.limiter {
@@ -65,10 +66,10 @@ div#console div.messages {
   color: #ef7d25;
 }
 
-/* #footer {
-  position: relative;
+#footer {
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   background-color: #3b4449 !important;
-} */
+}
