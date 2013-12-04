@@ -25,7 +25,11 @@ div#page div.limiter {
 }
 
 div#page div.container-inline {
-  background: #ededed !important;
+  background: #fff !important;
+}
+
+body.aegir fieldset legend {
+  font-size: 14px;
 }
 
 div#header div.logo a {
@@ -67,6 +71,14 @@ div#console {
   border-bottom: none;
 }
 
+#page ul.tabs, div#header-region ul.tabs {
+  width: 620px;
+}
+
+div.item-list .pager {
+  padding-top: 20px;
+}
+
 div#console div.messages {
   border-color: #ef7d25;
   text-shadow: none;
@@ -77,6 +89,10 @@ div#console div.messages {
 div.help p {
   background-color: #F8F8F8;
   padding: 10px;
+}
+
+div#main {
+  background: #fff;
 }
 
 div.node h3 {
