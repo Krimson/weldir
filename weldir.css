@@ -11,6 +11,10 @@ div#header {
   background-color: #3b4449;
 }
 
+div#header div.limiter {
+  height: 80px;
+}
+
 div#header-region {
   background: #ededed;
 }
@@ -22,6 +26,10 @@ div#header div.site-name {
 div#header div.site-slogan {
   color: #ef7d25;
   padding-top: 1px;
+}
+
+div#navigation div.breadcrumb {
+  margin-left: -120px;
 }
 
 div#page {
