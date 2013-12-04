@@ -143,10 +143,23 @@ div.book-navigation .page-links {
   margin-top: 10px;
 }
 
+div.sidebar h2 {
+  background-color: #6ac;
+  color: #fff;
+  padding-left: 10px;
+  padding-top: 4px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
 #footer {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   background-color: #3b4449 !important;
+}
+
+div.modalframe .ui-dialog-titlebar-close {
+  background: url();
 }
