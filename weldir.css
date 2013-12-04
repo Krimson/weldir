@@ -15,6 +15,15 @@ div#header-region {
   background: #ededed;
 }
 
+div#header div.site-name {
+  padding-right: 5px;
+}
+
+div#header div.site-slogan {
+  color: #ef7d25;
+  padding-top: 1px;
+}
+
 div#page {
   background: #ededed;
   margin-bottom: 70px;
@@ -33,7 +42,11 @@ body.aegir fieldset legend {
 }
 
 div#header div.logo a {
-  background-image: url("weldir-logo.png");
+  background: url("weldir-logo.png") no-repeat scroll 0 -240px;
+  text-indent: -999px;
+  overflow: hidden;
+  height: 80px;
+  width: 120px;
 }
 
 div#header div.site-name {
