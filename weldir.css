@@ -96,7 +96,7 @@ div#main {
 }
 
 div#header-region h2.page-title span.label {
-  background-color: #6ac;
+  background-color: #EF7D25;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
 }
@@ -162,4 +162,14 @@ div.sidebar h2 {
 
 div.modalframe .ui-dialog-titlebar-close {
   background: url();
+}
+
+.button {
+  background-color: #6ac;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  margin: 5px;
 }
