@@ -193,6 +193,10 @@ div.modalframe .ui-dialog-titlebar-close {
   background: url();
 }
 
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 32px;
+}
+
 .button {
   background-color: #6ac;
   padding: 10px;
