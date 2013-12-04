@@ -158,6 +158,8 @@ div.sidebar h2 {
   left: 0;
   width: 100%;
   background-color: #3b4449 !important;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 div.modalframe .ui-dialog-titlebar-close {
