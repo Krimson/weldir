@@ -156,6 +156,20 @@ div.book-navigation .page-links {
   margin-top: 10px;
 }
 
+.item-list .pager li {
+  background-color: #ededed;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+.item-list .pager .pager-current {
+  border: 1px solid #888;
+}
+
 div.sidebar h2 {
   background-color: #6ac;
   color: #fff;
