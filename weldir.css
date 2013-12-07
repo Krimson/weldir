@@ -1,54 +1,38 @@
+/*
+ * Weldir stylesheet
+ *
+ * Weldir is an Eldir sub-theme by Wunderkraut
+ *
+ */
+
+ /* general */
 .html {
   background: #ededed;
 }
-
 body.aegir {
   background: #ededed;
 }
 
+/* header */
 div#header {
   background-image: none;
   background-color: #3b4449;
 }
-
 div#header div.limiter {
   height: 80px;
 }
-
 div#header-region {
   background: #ededed;
 }
-
 div#header div.site-name {
   padding-right: 5px;
+  color: #ef7d25;
+  border-left: #ef7d25;
 }
-
 div#header div.site-slogan {
   color: #ef7d25;
   padding-top: 1px;
 }
-
-div#navigation div.breadcrumb {
-  margin-left: -120px;
-}
-
-div#page {
-  background: #ededed;
-  margin-bottom: 70px;
-}
-
-div#page div.limiter {
-  background: #ededed;
-}
-
-div#page div.container-inline {
-  background: #fff !important;
-}
-
-body.aegir fieldset legend {
-  font-size: 14px;
-}
-
 div#header div.logo a {
   background: url("weldir-logo.png") no-repeat scroll 0 -240px;
   text-indent: -999px;
@@ -57,49 +41,54 @@ div#header div.logo a {
   width: 120px;
 }
 
-div#header div.site-name {
-  color: #ef7d25;
-  border-left: #ef7d25;
-}
-
+/* navigation */
 div#navigation {
   background-image: none;
   background-color: #3b4449;
   border-top: none;
 }
-
 div#navigation a {
   color: #cbcbcb;
 }
-
 div#navigation ul.links a {
   color: #3b4449;
   background: #cbcbcb;
 }
-
 div#navigation ul.links a:hover {
   background: #cbcbcb;
 }
-
 div#navigation ul.links li.active a, div#navigation ul.links li a.active {
   background: #ededed;
 }
+div#navigation div.breadcrumb {
+  margin-left: -120px;
+}
 
+/* page content */
+div#page {
+  background: #ededed;
+  margin-bottom: 70px;
+}
+div#page div.limiter {
+  background: #ededed;
+}
+div#page div.container-inline {
+  background: #fff !important;
+}
+div#page ul.tabs, div#header-region ul.tabs {
+  width: 620px;
+}
+div#main {
+  background: #fff;
+}
+
+/* console (messages) */
 div#console {
   background-color: #ededed;
   background: #ededed;
   border-top: none;
   border-bottom: none;
 }
-
-#page ul.tabs, div#header-region ul.tabs {
-  width: 620px;
-}
-
-div.item-list .pager {
-  padding-top: 20px;
-}
-
 div#console div.messages {
   border-color: #ef7d25;
   text-shadow: none;
@@ -107,45 +96,102 @@ div#console div.messages {
   color: #ef7d25;
 }
 
+/* help */
+div.help p {
+  background-color: #F8F8F8;
+  padding: 10px;
+}
 div.help p {
   background-color: #F8F8F8;
   padding: 10px;
 }
 
-div#main {
-  background: #fff;
+/* sidebar */
+div.sidebar {
+  padding-top: 0px;
+}
+div.sidebar h2 {
+  background-color: #6ac;
+  color: #fff;
+  padding-left: 10px;
+  padding-top: 4px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
 }
 
+/* node forms */
+body.aegir fieldset legend {
+  font-size: 14px;
+}
+
+/* node title */
 div#header-region h2.page-title span.label {
   background-color: #EF7D25;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
 }
 
+/* content */
+div#header-region h2.page-title span.label {
+  background-color: #EF7D25;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
 div.node h3 {
   font-size: 18px;
   color: #000;
 }
-
 div.node h4 {
   font-size: 16px;
   color: #000;
 }
-
 div.node h5 {
   font-size: 14px;
   color: #000;
 }
-
 div.node h6 {
   font-size: 12px;
   color: #000;
 }
-
 div.node div.content ul {
   padding-bottom: 10px;
 }
 
+/* content - custom classes */
+.button {
+  background-color: #6ac;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  margin: 5px;
+}
+.button a {
+  color: #fff;
+}
+
+/* views */
+div.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 32px;
+}
+div.item-list .pager {
+  padding-top: 20px;
+}
+div.item-list .pager li {
+  background-color: #ededed;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+div.item-list .pager .pager-current {
+  border: 1px solid #888;
+}
+
+/* book navigation */
 div.book-navigation {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -164,49 +210,13 @@ div.book-navigation .page-links {
   margin-top: 10px;
 }
 
-.item-list .pager li {
-  background-color: #ededed;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-}
-
-.item-list .pager .pager-current {
-  border: 1px solid #888;
-}
-
-div.sidebar h2 {
-  background-color: #6ac;
-  color: #fff;
-  padding-left: 10px;
-  padding-top: 4px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-}
-
-#footer {
+/* footer */
+div#footer.reverse {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #3b4449 !important;
+  background-color: #3b4449;
   padding-top: 0px;
   padding-bottom: 0px;
-}
-
-.views-exposed-form .views-exposed-widget .form-submit {
-  margin-top: 32px;
-}
-
-.button {
-  background-color: #6ac;
-  padding: 10px;
-  color: #fff;
-  font-size: 20px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  margin: 5px;
 }
