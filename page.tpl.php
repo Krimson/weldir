@@ -11,7 +11,9 @@
   <body class='aegir <?php print $body_classes ?>'>
 
   <div id="header" class='reverse'><div class='limiter clear-block'>
-    <div class='logo'><img src="/sites/all/themes/custom/weldir/weldir-logo.png"></div>
+    <?php if ($logo) { ?>
+      <div class='logo'><img alt="Logo" src="<?php print $logo; ?>"></div>
+    <?php } ?>
     <?php if ($site_name): ?><div class='site-name'><?php print $site_name ?></div><?php endif; ?>
     <?php if ($site_slogan): ?><div class='site-slogan'>| <?php print $site_slogan ?></div><?php endif; ?>
     <?php if ($search_box) print $search_box ?>
