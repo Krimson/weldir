@@ -190,6 +190,17 @@ div.item-list .pager li {
 div.item-list .pager .pager-current {
   border: 1px solid #888;
 }
+div.view-content .views-table caption {
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #6ac;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #fff;
+}
 
 /* book navigation */
 div.book-navigation {
