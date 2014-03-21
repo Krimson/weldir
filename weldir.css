@@ -158,7 +158,7 @@ div.node div.content ul {
 }
 
 /* content - tables */
-.tbody .hosting-status {
+td.hosting-status {
   background-position-y: center !important;
 }
 
