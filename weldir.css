@@ -201,6 +201,8 @@ div.item-list .pager li {
 div.item-list .pager .pager-current {
   border: 1px solid #888;
 }
+
+/* Views tables are adding captions, disabling for now
 div.view-content .views-table caption {
   text-align: left;
   font-size: 14px;
@@ -212,6 +214,7 @@ div.view-content .views-table caption {
   margin-bottom: 5px;
   color: #fff;
 }
+*/
 
 /* book navigation */
 div.book-navigation {
