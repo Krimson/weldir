@@ -127,8 +127,14 @@ body.aegir fieldset legend {
 /* node title */
 div#header-region h2.page-title span.label {
   background-color: #EF7D25;
+  padding: 5px;
+  color: #ededed;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
+}
+
+div#header-region h2.page-title {
+  padding-bottom: 10px;
 }
 
 /* content */
