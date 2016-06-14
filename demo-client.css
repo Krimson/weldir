@@ -1,0 +1,48 @@
+/* Overrides for demo clients 
+ * User roles are printed as body classes via preprocess hook (see pull request 1).
+ * Copy and alter this stylesheet, add it to the theme's .info file.
+ * Styling below applies to rol 'aegir client - demo client'
+ * and will filter out unnessecary server, platforms and profiles on add/clone forms.
+ * Dummy id's have been applied in the div id's.
+ */
+
+/* add - limit profiles */
+.role-aegir-client----demo-client div[id^="edit-profile-"] {
+  display: none !important;
+
+}
+.role-aegir-client----demo-client div#edit-profile-123-wrapper.form-item.form-option {
+  display: inline !important;
+}
+/* add - limit platforms */
+.role-aegir-client----demo-client div[id^="edit-platform-"] {
+  display: none !important;
+}
+.role-aegir-client----demo-client div#edit-platform-345-wrapper {
+  display: inline !important;
+}
+
+/* add - limit db servers */
+.role-aegir-client----demo-client div[id^="edit-db-server-"] {
+  display: none !important;
+}
+.role-aegir-client----demo-client div#edit-db-server-678-wrapper {
+  display: inline !important;
+}
+
+/* clone - limit db servers */
+.role-aegir-client----demo-client div[id^="edit-parameters-new-db-server-"] {
+  display: none !important;
+
+}
+.role-aegir-client----demo-client div#edit-parameters-new-db-server-901-wrapper.form-item.form-option {
+  display: inline !important;
+}
+
+/* clone - limit platforms */
+.role-aegir-client----demo-client div[id^="edit-parameters-target-platform-"] {
+  display: none !important;
+}
+.role-aegir-client----demo-client div#edit-parameters-target-platform-wrapper {
+  display: inline !important;
+}
