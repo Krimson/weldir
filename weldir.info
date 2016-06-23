@@ -1,6 +1,6 @@
 name = Weldir
 description = Weldir is an Eldir sub-theme by Wunderkraut
-core = 6.x
+core = 7.x
 base theme = eldir
 
 stylesheets[all][] = weldir.css
