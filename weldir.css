@@ -6,10 +6,9 @@
  */
 
  /* general */
+body.not-logged-in.page-user,
+body.aegir,
 .html {
-  background: #ededed;
-}
-body.aegir {
   background: #ededed;
 }
 
