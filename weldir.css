@@ -34,7 +34,6 @@ div#header div.site-slogan {
 }
 div#header div.logo a {
   background: url("weldir-logo.png") no-repeat scroll 0 -240px;
-  text-indent: -999px;
   overflow: hidden;
   height: 80px;
   width: 120px;
